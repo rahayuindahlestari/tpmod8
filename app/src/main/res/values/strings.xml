@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ArtUre</string>
+    <string name="btn_lihat">LIHAT</string>
+    <string name="btn_saran">SARAN</string>
+    <string name="btn_tentang">About Us</string>
+    <string name="title_activity_kategori2">Kategori</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_tentang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.apps.my.arture.TentangActivity"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/tentangbackground"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="331dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp"
+            android:text="ArtUre adalah aplikasi berbasis mobile yang memperkenalkan adat istiadat dari suatu daerah. Aplikasi ini dilengkapi dengan fitur pakaian adat, tarian adat, dan makanan khas dari masing-masing provinsi yang ada di Indonesia."
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_weight="1.07"
+            android:id="@+id/texttentang" />
+    </LinearLayout>
+
+</ScrollView>

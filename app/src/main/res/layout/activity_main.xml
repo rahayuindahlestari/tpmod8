@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_home"
+    tools:context="com.apps.my.arture.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/lihat"
+        android:src="@drawable/logo"/>
+
+    <Button
+        android:id="@+id/lihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROVINSI"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/btn_tentang"
+        android:textSize="16sp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/saran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_saran"
+        android:layout_below="@+id/lihat"
+        android:layout_alignLeft="@+id/lihat"
+        android:layout_alignStart="@+id/lihat" />
+
+</RelativeLayout>
